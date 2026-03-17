@@ -2,8 +2,7 @@ import json
 import os
 import warnings
 
-from urllib3.exceptions import NotOpenSSLWarning
-warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
+
 
 def setup_integrated_session():
     print(">>> ZADANIE 5.4: INTEGRACJA ARTEFAKTÓW (STABLE BUILD) <<<")
